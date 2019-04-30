@@ -1,0 +1,423 @@
+<root>
+
+    <top>
+        <num> 141 </num>
+        <title> Carta-bomba para Kiesbauer </title>
+        <desc> Encontrar información sobre la explosión de una carta-bomba en el estudio de la presentadora del canal de televisión PRO7 Arabella Kiesbauer. </desc>
+        <narr> Una carta-bomba enviada por radicales de extrema derecha, a la famosa presentadora de televisión negra Arabella Kiesbauer hizo explosión en un estudio del canal de TV PRO7 el 9 de junio de 1995. Una asistente resultó herida. Todos los documentos sobre la explosión y las investigaciones policiales tras el suceso son relevantes. Otros informes sobre ataques con cartas-bomba no son de interés. </narr>
+    </top>
+
+    <top>
+        <num> 142 </num>
+        <title> Christo envuelve el edificio del Reichstag alemán </title>
+        <desc> Encontrar documentos que hablen de este acto del artista alemán Christo en el Reichstag alemán en Berlín. </desc>
+        <narr> El artista Christo tardó dos semanas en junio de 1995 en envolver el Reichstag alemán utilizando una enorme cantidad de material. Encontrar documentos sobre este evento artístico. Cualquier información sobre los preparativos o el evento mismo es relevante, incluyendo los debates políticos, las decisiones y los preparativos técnicos. </narr>
+    </top>
+
+    <top>
+        <num> 143 </num>
+        <title> Conferencia de la Mujer en Pekín </title>
+        <desc> Las posiciones controvertidas adoptadas por algunos delegados hicieron que la Conferencia mundial de la Mujer en Pekín se expusiese al fracaso. </desc>
+        <narr> En los documentos relevantes se debe discutir alguno de los numerosos problemas o discrepancias que surgieron en relación con la Conferencia de la Mujer en Pekín. Son interesantes, en particular, las posturas mantenidas por los representantes del Vaticano, las comunidades islámicas y el Partido Comunista Chino. </narr>
+    </top>
+
+    <top>
+        <num> 144 </num>
+        <title> Diamantes y rebelión en Sierra Leona </title>
+        <desc> ¿Cómo han influido las rebeliones y otras manifestaciones de la inestabilidad política en la industria de diamantes de Sierra Leona? </desc>
+        <narr> Para ser relevantes, los documentos deben ser explícitos en cuanto a las consecuencias de la rebelión para la industria de diamantes. </narr>
+    </top>
+
+    <top>
+        <num> 145 </num>
+        <title> Importaciones de arroz en Japón </title>
+        <desc> Encontrar documentos que discutan las razones y las consecuencias de las primeras importaciones de arroz en Japón. </desc>
+        <narr> En 1994, Japón decidió abrir el mercado nacional de arroz a otros países por primera vez. Los documentos relevantes deben comentar este tema. La discusión puede incluir los nombres de los países de los que se importa arroz, los tipos de arroz, y las controversias que ha desatado esta decisión en Japón. </narr>
+    </top>
+
+    <top>
+        <num> 146 </num>
+        <title> Comida rápida en Japón </title>
+        <desc> ¿Qué cadena americana de comida rápida tiene un gran número de restaurantes franquicia en Japón? </desc>
+        <narr> Los documentos relevantes deben mencionar el nombre de la cadena americana de comida rápida de más éxito en Japón, y pueden contener información adicional sobre la introducción de esta clase de comida en la sociedad japonesa. </narr>
+    </top>
+
+    <top>
+        <num> 147 </num>
+        <title> Accidentes petrolíferos y aves </title>
+        <desc> Encontrar documentos que describan daños o lesiones causadas a las aves por vertidos accidentales de petróleo o polución. </desc>
+        <narr> Son relevantes todos los documentos que traten de los daños que sufren las aves a causa de los accidentes petrolíferos. Los informes sobre vertidos de sentina o derrames intencionados de petróleo no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 148 </num>
+        <title> Destrucción de la capa de ozono </title>
+        <desc> ¿Qué agujeros en la capa de ozono no son una consecuencia de la contaminación? </desc>
+        <narr> No todos los tipos de destrucción que sufre la capa de ozono son fruto de la contaminación. Los documentos relevantes deben informar sobre otras causas de los agujeros en la capa de ozono. </narr>
+    </top>
+
+    <top>
+        <num> 149 </num>
+        <title> Visita del Papa a Sri Lanka </title>
+        <desc> Encontrar informes acerca de las protestas o los problemas causados por las declaraciones previas del Papa acerca del budismo durante su visita a Sri Lanka. </desc>
+        <narr> El Papa Juan Pablo II se encontró con una acogida desigual cuando visitó Sri Lanka, país mayoritariamente budista. La visita del Papa a Sri Lanka se convirtió en una prueba para las relaciones entre la Iglesia Católica y los líderes budistas, a la que siguieron comentarios sobre el Budismo en un libro publicado recientemente. </narr>
+    </top>
+
+    <top>
+        <num> 150 </num>
+        <title> AI contra la pena de muerte </title>
+        <desc> Encontrar informes sobre acciones concretas de Amnistía Internacional contra la pena de muerte. </desc>
+        <narr> Amnistía Internacional tiene como objetivo la abolición de la pena de muerte en el mundo. Los documentos relevantes deben describir acciones específicas de Amnistía Internacional contra la pena de muerte. </narr>
+    </top>
+
+    <top>
+        <num> 151 </num>
+        <title> Las maravillas del Mundo Antiguo </title>
+        <desc> Busque información sobre la existencia y/o el descubrimiento de los restos de las siete maravillas del mundo. </desc>
+        <narr> Los documentos relevantes contendrán referencias a cualquiera de las siete maravillas del mundo que todavía existen hoy. Son particularmente interesantes las referencias a los descubrimientos de restos recientes, que se cree puedan pertenecer a una de esas siete maravillas. </narr>
+    </top>
+
+    <top>
+        <num> 152 </num>
+        <title> Los derechos de la infancia </title>
+        <desc> Encontrar información sobre la Convención de las Naciones Unidas sobre los derechos de la infancia. </desc>
+        <narr> Los documentos relevantes proporcionarán información sobre la convención de la ONU acerca de los derechos de la infancia, así como la fecha de su adopción por la Asamblea General de las Naciones Unidas, la definición de los derechos contemplados, los estados que los ratificaron, etc. </narr>
+    </top>
+
+    <top>
+        <num> 153 </num>
+        <title> Los Juegos Olímpicos y la paz </title>
+        <desc> Encontrar documentos que traten de cómo los Juegos Olímpicos pueden contribuir a la paz mundial. </desc>
+        <narr> Son relevantes los documentos que identifiquen la paz mundial como uno de los objetivos de los Juegos Olímpicos, incluyendo los documentos en los que atletas o miembros del Comité Olímpico Internacional pidan la suspensión de las hostilidades durante los juegos. </narr>
+    </top>
+
+    <top>
+        <num> 154 </num>
+        <title> Libertad de Expresión en Internet </title>
+        <desc> Encontrar documentos en los que se hable sobre la censura y la libertad de expresión en Internet. </desc>
+        <narr> Los documentos en los que se discutan asuntos como la pornografía o el racismo en Internet, sin mencionar el tema de la censura o libertad de expresión, no se considerarán relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 155 </num>
+        <title> Riesgos de los teléfonos móviles </title>
+        <desc> ¿Qué riesgos y peligros trae consigo el creciente uso de teléfonos móviles? </desc>
+        <narr> Los documentos relevantes deben describir los problemas relacionados con el uso del teléfono móvil. Son relevantes tanto los riesgos para la salud relacionados con el uso del teléfono móvil, por ejemplo, los riesgos relacionados con la radiación, como los peligros achacables a los teléfonos móviles, como por ejemplo, los accidentes de tráfico causados por conductores distraídos. </narr>
+    </top>
+
+    <top>
+        <num> 156 </num>
+        <title> Sindicatos en Europa </title>
+        <desc> ¿Qué papel juegan los sindicatos en los distintos países europeos? </desc>
+        <narr> Los documentos relevantes deben comparar el papel que juegan los sindicatos, su status o su importancia en dos o más países europeos. La información relevante deberá incluir el nivel de organización, los mecanismos para emprender negociaciones y el clima general del mercado de trabajo. </narr>
+    </top>
+
+    <top>
+        <num> 157 </num>
+        <title> Ganadoras de Wimbledon </title>
+        <desc> Dar los nombres de las ganadoras del torneo de tenis de Wimbledon femenino. </desc>
+        <narr> Cualquier documento sobre la vencedora de cualquier campeonato de Wimbledon de tenis femenino es relevante. Los nombres de las ganadoras deben constar explícitamente. </narr>
+    </top>
+
+    <top>
+        <num> 158 </num>
+        <title> Fútbol: disturbios en Dublín </title>
+        <desc> Encontrar documentos sobre la suspensión del partido internacional de fútbol entre Irlanda e Inglaterra en Dublín tras los disturbios que tuvieron lugar durante el encuentro. </desc>
+        <narr> Tras los disturbios provocados por hooligans, el partido internacional de fútbol entre Irlanda e Inglaterra fue suspendido cuando los irlandeses ganaban por 1 a 0 en el minuto 27 del encuentro. </narr>
+    </top>
+
+    <top>
+        <num> 159 </num>
+        <title> Medio ambiente y petróleo en el Mar del Norte </title>
+        <desc> ¿Qué medidas se han emprendido para proteger el medio ambiente ante el aumento de la exploración y producción de petróleo en el Mar del Norte? </desc>
+        <narr> En los documentos relevantes se deben identificar y debatir cuestiones medioambientales relacionadas con la exploración y producción de petróleo en el Mar del Norte. Los documentos sobre la decomisión de un terreno petrolífero son relevantes solamente si mencionan problemas ecológicos. En cambio, los documentos que simplemente enumeren las compañías involucradas en la perforación o que informen sobre el volumen de la producción y los beneficios no son de interés. </narr>
+    </top>
+
+    <top>
+        <num> 160 </num>
+        <title> Consumo de whisky escocés </title>
+        <desc> Los documentos tratarán sobre la cantidad de whisky escocés consumida por los escoceses, en relación con la cantidad de whisky escocés que exporta Escocia. </desc>
+        <narr> Para ser relevantes, los documentos deben informar sobre el consumo de whisky escocés por los escoceses en relación con el volumen de producción. Los documentos que hablen del consumo de whisky escocés en otros países o analicen las causas de la disminución de las exportaciones no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 161 </num>
+        <title> Dietas para celíacos </title>
+        <desc> Encontrar informes que discutan los problemas de dieta de los celíacos. </desc>
+        <narr> Encontrar informes que discutan los problemas nutricionales de los celíacos. Son de particular interés los informes sobre si los celíacos pueden o no comer avena. </narr>
+    </top>
+
+    <top>
+        <num> 162 </num>
+        <title> Aduanas entre la UE y Turquía </title>
+        <desc> Encontrar documentos sobre los problemas planteados por Grecia en relación con la desaparición de aduanas entre la Unión Europea y Turquía. </desc>
+        <narr> Los documentos relevantes deben mencionar explícitamente la posición de Grecia con referencia a la propuesta de unión aduanera entre la UE y Turquía. </narr>
+    </top>
+
+    <top>
+        <num> 163 </num>
+        <title> Restricciones para los fumadores </title>
+        <desc> Encontrar documentos sobre normas o leyes cuyo objetivo sea prohibir o limitar el tabaco en restaurantes. </desc>
+        <narr> Son relevantes todos los documentos que hablen de leyes y regulaciones relacionadas con la prohibición o limitación del consumo de tabaco en restaurantes, así como los documentos que describan propuestas o consecuencias de este tipo de legislación. </narr>
+    </top>
+
+    <top>
+        <num> 164 </num>
+        <title> Sentencias sobre drogas en Europa </title>
+        <desc> ¿Qué sentencias se han dictado en Europa por la venta ilegal de drogas? </desc>
+        <narr> Los documentos relevantes deben proporcionar información sobre sentencias dictadas en países europeos en relación con el tráfico de drogas. Esta información debe incluir el tipo de sentencia, la duración de la condena o penas alternativas. Las penas por consumo de drogas no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 165 </num>
+        <title> Globos de Oro 1994 </title>
+        <desc> ¿Qué película ganó el Globo de Oro al mejor drama en 1994? </desc>
+        <narr> Los Globos de Oro de la temporada de cine de 1994 se concedieron en Los Ángeles en junio de 1995. Los documentos relevantes deben mencionar el nombre de la película que ganó el premio al mejor drama en Los Ángeles. </narr>
+    </top>
+
+    <top>
+        <num> 166 </num>
+        <title> El general francés y la zona de seguridad en los Balcanes </title>
+        <desc> ¿Quién fue el general francés responsable de la creación de la zona de seguridad durante el conflicto de los Balcanes? </desc>
+        <narr> Los documentos relevantes darán el nombre del general francés de las fuerzas de la IFOR que crearon la zona de seguridad durante el conflicto de los Balcanes. </narr>
+    </top>
+
+    <top>
+        <num> 167 </num>
+        <title> Relaciones China-Mongolia </title>
+        <desc> Encontrar información sobre las relaciones recientes y acuerdos de cooperación entre China y Mongolia. </desc>
+        <narr> Son relevantes los documentos que proporcionen información sobre relaciones políticas y/o económicas entre China y Mongolia durante el siglo XX. </narr>
+    </top>
+
+    <top>
+        <num> 168 </num>
+        <title> Asesinato de Rabin </title>
+        <desc> ¿Quién disparó a Isaac Rabin y por qué? </desc>
+        <narr> Los documentos relevantes deberán dar el nombre del asesino de Isaac Rabin, el primer ministro de Israel, y explicar algunas de las razones del asesinato. </narr>
+    </top>
+
+    <top>
+        <num> 169 </num>
+        <title> La aparición de la grabadora de CD </title>
+        <desc> Encontrar documentos sobre la grabadora de CD y las reacciones de la industria discográfica. </desc>
+        <narr> Son especialmente relevantes los documentos acerca de las consecuencias para la industria discográfica del uso de grabadoras de CD y los asuntos relacionados con los derechos de propiedad intelectual. </narr>
+    </top>
+
+    <top>
+        <num> 170 </num>
+        <title> Lenguas oficiales de la UE </title>
+        <desc> Encontrar documentos acerca de los planes franceses para reducir a cinco el número de lenguas oficiales de la Unión Europea. </desc>
+        <narr> Francia ha propuesto limitar las lenguas principales de la Unión a francés, inglés, alemán, italiano y español. Tras una fuerte oposición, la propuesta ha sido retirada. Los documentos relevantes deben hacer referencia a esta propuesta. </narr>
+    </top>
+
+    <top>
+        <num> 171 </num>
+        <title> Final de hockey sobre hielo en Lillehammer </title>
+        <desc> ¿Qué equipos jugaron la final de hockey sobre hielo en los Juegos Olímpicos de Lillehammer en 1994? </desc>
+        <narr> Los documentos relevantes deben mencionar a los equipos que jugaron la final de hockey sobre hielo en los Juegos Olímpicos de Lillehammer de 1994. Los documentos que informen de qué equipos quedaron en primer y segundo lugar en este partido sin mencionar explícitamente la final, también son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 172 </num>
+        <title> Récords mundiales de Atletismo de 1995 </title>
+        <desc> ¿Qué nuevas marcas se lograron durante los campeonatos del mundo de 1995 en Göteborg? </desc>
+        <narr> Los documentos relevantes deberán mencionar los récords que se batieron, describir la prueba y el resultado, y dar el nombre del nuevo poseedor del récord. </narr>
+    </top>
+
+    <top>
+        <num> 173 </num>
+        <title> Pruebas del quark top </title>
+        <desc> Encontrar informes sobre pruebas experimentales de científicos norteamericanos de la existencia del quark top. </desc>
+        <narr> Científicos de un centro de investigación norteamericano comunicaron que se había podido probar experimentalmente la existencia del quark top. Las partículas elementales llamadas quarks son los constituyentes fundamentales de la materia. Los documentos relevantes deben discutir esta prueba experimental, y no sobre las partículas elementales en general. </narr>
+    </top>
+
+    <top>
+        <num> 174 </num>
+        <title> Polémica de crucifijos en Bavaria </title>
+        <desc> Encontrar documentos sobre la polémica de los crucifijos en las escuelas bávaras. </desc>
+        <narr> En la polémica de los crucifijos, la corte constitucional federal de Alemania confirmó que los padres tienen derecho a quejarse de forma individual sobre la colocación de crucifijos en las aulas de las escuelas bávaras. </narr>
+    </top>
+
+    <top>
+        <num> 175 </num>
+        <title> Impacto medioambiental en los Everglades </title>
+        <desc> Encontrar noticias sobre el impacto medioambiental que han sufrido los Everglades, por ejemplo, sobre el causado por la industria azucarera de Florida. </desc>
+        <narr> Las noticias deben tratar el daño causado al medio ambiente en los Everglades. Son de particular interés las discusiones sobre los problemas causados por la industria azucarera. También serán relevantes las referencias al impacto medioambiental producido por los vertidos de granjas en general. </narr>
+    </top>
+
+    <top>
+        <num> 176 </num>
+        <title> El Shoemaker-Levy y Júpiter </title>
+        <desc> Encontrar noticias sobre el impacto del cometa Shoemaker-Levy con el planeta Júpiter. </desc>
+        <narr> Los documentos relevantes proporcionarán datos sobre la desintegración del cometa Shoemaker-Levy y la colisión de sus restos con Júpiter. </narr>
+    </top>
+
+    <top>
+        <num> 177 </num>
+        <title> Consumo de leche en Europa </title>
+        <desc> Proporcionar estadísticas o información relativa al consumo de leche en Europa. </desc>
+        <narr> Los documentos relevantes deben proporcionar estadísticas u otro tipo de información sobre el consumo de leche en Europa o en algún país europeo. Los informes sobre derivados de la leche no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 178 </num>
+        <title> Insumisión </title>
+        <desc> Encontrar casos de personas que estén dispuestas a ir a la cárcel antes que realizar el servicio militar. </desc>
+        <narr> Los documentos relevantes deben hablar de las personas que rehusen por completo el servicion militar (así como su equivalente civil) y estén dispuestos a ir a la cárcel en defensa de sus ideas. </narr>
+    </top>
+
+    <top>
+        <num> 179 </num>
+        <title> Dimisión del Secretario General de la OTAN </title>
+        <desc> ¿Por qué el Secretario General de la OTAN se vio obligado a dimitir en 1995? </desc>
+        <narr> En 1995 el Secretario General de la OTAN se encontraba bajo una fuerte presión política que le obligó a dimitir. Los documentos relevantes deben mencionar al menos una de las razones de esta dimisión. </narr>
+    </top>
+
+    <top>
+        <num> 180 </num>
+        <title> Bancarrota del Barings </title>
+        <desc> ¿Qué magnitud alcanzaron las pérdidas en el caso de la bancarrota del Barings? </desc>
+        <narr> Los documentos relevantes deben cuantificar de alguna manera las pérdidas causadas por la caída del banco más antiguo de Gran Bretaña. </narr>
+    </top>
+
+    <top>
+        <num> 181 </num>
+        <title> Pruebas nucleares francesas </title>
+        <desc> Encontrar documentos sobre la presión internacional sobre Francia para poner fin a las pruebas nucleares. </desc>
+        <narr> La decisión de Jacques Chirac tras su elección de romper la moratoria internacional sobre pruebas nucleares ha sido denunciada por Greenpeace y muchos otros grupos ecologistas. Cada prueba provocó fuertes protestas en el mundo, especialmente en Australia y Nueva Zelanda. Tanto Japón como EEUU expresaron su disgusto con la actitud francesa. </narr>
+    </top>
+
+    <top>
+        <num> 182 </num>
+        <title> 50 aniversario del desembarco de Normandía </title>
+        <desc> Encontrar informes sobre el lanzamiento de paracaidistas veteranos sobre Sainte-Mère-Église, durante las celebraciones del 50 aniversario del desembarco de Normandía. </desc>
+        <narr> Alrededor de 40 veteranos se lanzaron en paracaídas sobre Sainte-Mère-Église durante las celebraciones del 50 aniversario del desembarco en Normandía, tal y como lo habían hecho 50 años antes el día D. Cualquier información sobre los preparativos o sobre el evento mismo son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 183 </num>
+        <title> Restos de dinosaurios en Asia </title>
+        <desc> ¿En qué partes de Asia han sido encontrados restos de dinosaurio? </desc>
+        <narr> Los documentos relevantes harán referencia al hallazgo de cualquier tipo de resto fosilizado de dinosaurio, incluyendo huevos de dinosaurio, en cualquier lugar de Asia. Los documentos que únicamente mencionen el descubrimiento de huellas de dinosaurio no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 184 </num>
+        <title> Permiso de maternidad en Europa </title>
+        <desc> Encontrar documentos que den información acerca de las prestaciones relacionadas con la duración del permiso de maternidad en Europa. </desc>
+        <narr> Los documentos deben proporcionar cifras exactas con respecto al tiempo concedido por permiso de maternidad a las mujeres trabajadoras en Europa. Los debates, leyes y proposiciones de ley relacionadas con la duración del permiso de maternidad al que las mujeres tienen derecho son también relevantes, siempre que se den cifras. Son también interesantes las comparaciones entre las regulaciones de distintos países. </narr>
+    </top>
+
+    <top>
+        <num> 185 </num>
+        <title> Fotos holandesas de Srebrenica </title>
+        <desc> ¿Qué ha sucedido con las fotografías y películas que hicieron soldados holandeses en Srebrenica que evidenciaban diversas violaciones de los derechos humanos? </desc>
+        <narr> Tras la caída de Srebrenica, las fotografías y videos realizados por el ejército holandés con evidencias de violaciones de los derechos humanos desaparecieron. Las películas restantes mostraban sólo imágenes poco claras. Los documentos relevantes proporcionarán cualquier tipo de información sobre este incidente y podrán incluir detalles sobre el contenido de las fotografías, la película y discusiones sobre lo que pasó con ellas. </narr>
+    </top>
+
+    <top>
+        <num> 186 </num>
+        <title> Coalición del gobierno holandés </title>
+        <desc> ¿Qué partidos políticos formaron la coalición gobernante, llamada "el gabinete violeta", en Holanda en 1994-1995? </desc>
+        <narr> En 1994, una improbable combinación de partidos formó una coalición de gobierno en Holanda. Los documentos relevantes deben mencionar los nombres de estos tres partidos. </narr>
+    </top>
+
+    <top>
+        <num> 187 </num>
+        <title> Transporte nuclear en Alemania </title>
+        <desc> Encontrar documentos sobre las protestas contra el transporte de material radioactivo con contenedores Castor en Alemania. </desc>
+        <narr> Los documentos relevantes tratarán sobre el transporte de desechos radioactivos con contenedores Castor a Gorleben (Baja Sajonia) y las acciones de protesta en contra. Todos los documentos que informen sobre las protestas contra estos envíos es relevante, incluso si no se especifica el lugar o el tipo de contenedor usado. </narr>
+    </top>
+
+    <top>
+        <num> 188 </num>
+        <title> Reforma de la ortografía alemana </title>
+        <desc> Encontrar documentos que informen sobre la introducción de la reforma de la ortografía alemana para el idioma alemán. </desc>
+        <narr> La reforma de la ortografía fue aprobada para entrar en vigor el 1 de Agosto de 1998 en todos los países de habla alemana. Las reglas ortográficas y de puntuación fueron simplificadas considerablemente, sin embargo, la reforma es controvertida. </narr>
+    </top>
+
+    <top>
+        <num> 189 </num>
+        <title> El Hubble y los agujeros negros </title>
+        <desc> ¿Qué papel desempeñó el telescopio Hubble en la demostración de la existencia de los agujeros negros? </desc>
+        <narr> Los documentos relevantes deben hablar específicamente sobre las pruebas aportadas por el telescopio Hubble sobre agujeros negros. Las discusiones generales sobre el Hubble o los agujeros negros no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 190 </num>
+        <title> Trabajo infantil en Asia </title>
+        <desc> Encontrar documentos que hablen del trabajo infantil en Asia y de propuestas para erradicarlo o para mejorar las condiciones laborales de los niños. </desc>
+        <narr> Son relevantes los documentos que traten del trabajo infantil en países de Asia concretos, de las condiciones laborales de los niños y de medidas propuestas para erradicar el trabajo infantil. </narr>
+    </top>
+
+    <top>
+        <num> 191 </num>
+        <title> Cultivos en el Delta del Ebro </title>
+        <desc> ¿Cuál era el cultivo predominante en el Delta del Ebro a principios de los 90? </desc>
+        <narr> Los documentos relevantes deben mencionar el cultivo predominante en el Delta del Ebro en los noventa. También pueden mencionar los cambios previstos según los posibles acuerdos tomados por el GATT. </narr>
+    </top>
+
+    <top>
+        <num> 192 </num>
+        <title> Asesinato del director de una cadena de TV en Rusia </title>
+        <desc> ¿Cómo se llamaba el jefe de una cadena de televisión rusa que fue asesinado en la escalera de su domicilio en Moscú? </desc>
+        <narr> Los documentos relevantes deben hablar del asesinato en Moscú del director de una de las cadenas de televisión de Rusia y antiguo periodista, proporcionando su nombre. </narr>
+    </top>
+
+    <top>
+        <num> 193 </num>
+        <title> La UE y los países bálticos </title>
+        <desc> Encontrar documentos que hablen sobre las negociaciones entre los países bálticos (Estonia, Letonia o Lituania) y la Unión Europea relacionadas con su adhesión a la UE. </desc>
+        <narr> Los documentos relevantes deben describir las negociaciones entre la UE y Estonia, Letonia o Lituania. Las noticias sobre acuerdos de cooperación individuales entre países europeos concretos y alguna de las repúblicas bálticas no son relevantes. </narr>
+    </top>
+
+    <top>
+        <num> 194 </num>
+        <title> Familia real italiana </title>
+        <desc> Encontrar información sobre el exilio de Italia de los miembros varones de la Casa de Saboya. </desc>
+        <narr> Los documentos relevantes proporcionarán información acerca de los términos del exilio de la familia real italiana, los Saboya, y/o las condiciones impuestas. Los documentos que proporcionen debates y opiniones relacionadas con un posible fin del destierro de los herederos y su regreso a Italia también deben ser tenidos en cuenta. </narr>
+    </top>
+
+    <top>
+        <num> 195 </num>
+        <title> Huelga de asistentes de vuelo italianos </title>
+        <desc> Encontrar referencias acerca de los transtornos o problemas causados por huelgas de asistentes de vuelo en Italia. </desc>
+        <narr> Los documentos relevantes darán información acerca de los trastornos que sean consecuencia directa de las huelgas de los asistentes de vuelo italianos. La información relevante puede incluir detalles tanto de retrasos como de cancelaciones de vuelos y dificultades para los pasajeros de cualquier punto de Europa o de otras partes, debidas a los efectos de la acción de los sindicatos de los asistentes de vuelo en Italia. </narr>
+    </top>
+
+    <top>
+        <num> 196 </num>
+        <title> Fusión de bancos japoneses </title>
+        <desc> Encontrar documentos sobre la fusión del banco japonés Mitsubishi y el Banco de Tokyo para formar el mayor banco del mundo. </desc>
+        <narr> Las dos instituciones japonesas de crédito Mitsubishi Bank y Bank of Tokyo llegaron a un acuerdo de fusión. El nuevo banco es el mayor del mundo. </narr>
+    </top>
+
+    <top>
+        <num> 197 </num>
+        <title> Tratado de paz de Dayton </title>
+        <desc> Encontrar documentos sobre el acuerdo de paz alcanzado en Dayton sobre Bosnia-Herzegovina. </desc>
+        <narr> De acuerdo con el tratado de Dayton, la OTAN se hizo responsable del mantenimiento militar de la paz en Bosnia-Herzegovina. Los documentos relevantes deben informar sobre las negociaciones, los contenidos y las conclusiones del acuerdo. </narr>
+    </top>
+
+    <top>
+        <num> 198 </num>
+        <title> Oscar honorífico para directores italianos </title>
+        <desc> Encontrar información acerca de directores italianos que hayan sido premiados con un Oscar honorífico como reconocimiento a toda su carrera. </desc>
+        <narr> Los documentos relevantes proporcionarán información sobre qué directores de cine italianos han recibido un Oscar en la entrega de los Premios de la Academia en Los Ángeles por su trayectoria de toda una vida dedicada al cine. </narr>
+    </top>
+
+    <top>
+        <num> 199 </num>
+        <title> Epidemia de ébola en Zaire </title>
+        <desc> Encontrar documentos sobre las medidas preventivas tomadas tras el brote epidémico de ébola en el Zaire. </desc>
+        <narr> En Mayo de 1995, en la ciudad zaireña de Kikwit, se produjo un brote de una de las epidemias más temidas: la epidemia de ébola. Los documentos relevantes informan de las medidas que se tomaron para impedir la propagación de esta enfermedad. </narr>
+    </top>
+
+    <top>
+        <num> 200 </num>
+        <title> Inundaciones en Holanda y Alemania </title>
+        <desc> Encontrar estadísticas sobre las inundaciones en Holanda y Alemania en 1995. </desc>
+        <narr> Los documentos relevantes deben cuantificar los efectos del daño causado por las inundaciones que tuvieron lugar en Alemania y los Países Bajos en 1995, en términos de número de personas y animales evacuados y/o de pérdidas económicas. </narr>
+    </top>
+
+</root>
