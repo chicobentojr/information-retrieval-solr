@@ -14,8 +14,9 @@ def show_query_result(number, docs, student='chicobentojr'):
     index = 0
     for doc in docs:
         doc_id = doc['docid']
+        score = doc['score']
         print('{}\tQ0\t{}\t{}\t{}\t{}'.format(
-            number, doc_id[0], index, 0, student))
+            number, doc_id[0], index, score, student))
         index += 1
 
 
@@ -26,7 +27,7 @@ def execute_queries(collection):
         query = get_query(topic)
 
         r = requests.get('{}/solr/{}/select'.format(SOLR_HOST, collection),
-                         params={'q': 'text:{}'.format(query), 'rows': RESULT_LIMIT})
+                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT})
         result = r.json()
         docs = result['response']['docs']
 

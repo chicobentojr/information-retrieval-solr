@@ -51,7 +51,7 @@ def index_documents(documents_path, collection='informationRetrieval'):
 
     time.sleep(1)
 
-    for f in files[:1]:
+    for f in files:
         print('Indexing ... {} '.format(f), end='')
         with open(f) as file:
             json_data = []
