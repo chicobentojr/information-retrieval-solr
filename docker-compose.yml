@@ -1,0 +1,18 @@
+version: '2'
+services:
+  solr:
+    image: solr
+    container_name: solr    
+    ports:
+     - "9983:9983"
+     - "8983:8983"
+    volumes:
+      - data:/opt/solr/server/solr/mycores
+    entrypoint:
+      - docker-entrypoint.sh
+      - solr
+      - start
+      - -c
+      - -f
+volumes:
+  data:
