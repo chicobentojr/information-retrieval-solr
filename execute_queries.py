@@ -15,7 +15,7 @@ def show_query_result(number, docs, student='chicobentojr'):
     for doc in docs:
         doc_id = doc['docid']
         score = doc['score']
-        print('{}\tQ0\t{}\t{}\t{}\t{}'.format(
+        print('{}\tQ0\t{}\t{}\t{:f}\t{}'.format(
             number, doc_id[0], index, score, student))
         index += 1
 
