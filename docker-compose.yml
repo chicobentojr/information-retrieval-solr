@@ -8,6 +8,7 @@ services:
      - "8983:8983"
     volumes:
       - data:/opt/solr/server/solr/mycores
+      - ./conf/stopwords-es.txt:/opt/solr/server/solr/configsets/_default/conf/stopwords.txt
     entrypoint:
       - docker-entrypoint.sh
       - solr

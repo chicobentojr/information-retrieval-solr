@@ -10,7 +10,7 @@ def get_query(topic):
     return topic.title.cdata.replace(':', '')
 
 
-def show_query_result(number, docs, student='chicobentojr_lucaslioli'):
+def show_query_result(number, docs, student='francisco_lucas'):
     index = 0
     for doc in docs:
         doc_id = doc['docid']
