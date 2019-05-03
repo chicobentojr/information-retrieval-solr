@@ -10,13 +10,13 @@ def get_query(topic):
     return topic.title.cdata.replace(':', '')
 
 
-def show_query_result(number, docs, student='chicobentojr'):
+def show_query_result(number, docs, student='chicobentojr_lucaslioli'):
     index = 0
     for doc in docs:
         doc_id = doc['docid']
         score = doc['score']
-        print('{}\tQ0\t{}\t{}\t{:f}\t{}'.format(
-            number, doc_id[0], index, score, student))
+        print('{0:<7} {1:5} {2:20} {3:<5} {4:<12} {5:18}'.format(
+            number, "Q0", doc_id[0], index, score, student))
         index += 1
 
 
