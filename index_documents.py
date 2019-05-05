@@ -14,7 +14,7 @@ def delete_collection(collection):
 
 
 def create_collection(collection):
-    print('Create collection {} ... '.format(collection), end='')
+    print('Creating collection {} ... '.format(collection), end='')
     requests.get('{}/solr/admin/collections'.format(SOLR_HOST), params={
         'action': 'CREATE',
         'name': collection,
@@ -22,16 +22,54 @@ def create_collection(collection):
     print('collection created!')
 
 
+def create_stem_field_type(collection, name='stem_es'):
+    print('Creating stemmer field type {}  ... '.format(
+        collection), end='')
+    requests.post('{}/solr/{}/schema'.format(SOLR_HOST, collection), json={
+        'add-field-type': {
+            "name": name,
+            "class": "solr.TextField",
+            "positionIncrementGap": "100",
+            "analyzer": {
+                "tokenizer": {
+                    # "class": "solr.WhitespaceTokenizerFactory"},
+                    "class": "solr.StandardTokenizerFactory"},
+                "filters": [
+                    {"class": "solr.LowerCaseFilterFactory"},
+                    {"class": "solr.SpanishLightStemFilterFactory"},
+                    {"class": "solr.StopFilterFactory",
+                     "words": "stopwords.txt",
+                     "ignoreCase": "true"},
+                ]}
+        },
+    })
+    print('stemmer field created!')
+
+
+def create_schema_field(collection, name, field_type, stored=True):
+    print('Creating field ({}: {}) in {} ... '.format(
+        name, field_type, collection), end='')
+    requests.post('{}/solr/{}/schema'.format(SOLR_HOST, collection), json={
+        "add-field": {
+            "name": name,
+            "type": field_type,
+            "stored": stored,
+            "indexed": True,
+            "multiValued": True}
+    })
+    print('field created!')
+
+
 def create_copy_field(collection, dest='_text_', source='*'):
     print('Create copy field in {} from {} to {}  ... '.format(
         collection, source, dest), end='')
-    r = requests.post('{}/solr/{}/schema'.format(SOLR_HOST, collection), json={
+    requests.post('{}/solr/{}/schema'.format(SOLR_HOST, collection), json={
         'add-copy-field': {
             'dest': dest,
             'source': source,
         },
     })
-    print('field created!')
+    print('copy field created!')
 
 
 def post_documents_solr(collection, json_data):
@@ -47,9 +85,15 @@ def index_documents(documents_path, collection='informationRetrieval'):
 
     delete_collection(collection)
     create_collection(collection)
-    create_copy_field(collection)
+    # create_stem_field_type(collection, 'stem_es')
+    # create_schema_field(collection, 'text', 'text_es')
+    # create_schema_field(collection, 'title', 'text_es')
+    create_schema_field(collection, '_text_es_', 'text_es', stored=False)
+    create_copy_field(collection, '_text_', '*')
+    create_copy_field(collection, '_text_es_', '*')
 
     time.sleep(1)
+    # return 0
 
     for f in files:
         print('Indexing ... {} '.format(f), end='')

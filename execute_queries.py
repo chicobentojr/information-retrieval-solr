@@ -10,7 +10,7 @@ def get_query(topic):
     return topic.title.cdata.replace(':', '')
 
 
-def show_query_result(number, docs, student='francisco_lucas'):
+def show_query_result(number, docs, student='francisco_e_lucas'):
     index = 0
     for doc in docs:
         doc_id = doc['docid']
@@ -27,7 +27,9 @@ def execute_queries(collection):
         query = get_query(topic)
 
         r = requests.get('{}/solr/{}/select'.format(SOLR_HOST, collection),
-                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT})
+                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT,
+                                 #  'df': '_text_es_',
+                                 })
         result = r.json()
         docs = result['response']['docs']
 
