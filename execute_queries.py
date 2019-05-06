@@ -7,7 +7,7 @@ COLLECTION = 'informationRetrieval'
 
 
 def get_query(topic):
-    return topic.title.cdata.replace(':', '')
+    return topic.title.cdata.replace(':', '') + " " + topic.desc.cdata
 
 
 def show_query_result(number, docs, student='francisco_e_lucas'):
@@ -27,9 +27,7 @@ def execute_queries(collection):
         query = get_query(topic)
 
         r = requests.get('{}/solr/{}/select'.format(SOLR_HOST, collection),
-                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT,
-                                 #  'df': '_text_es_',
-                                 })
+                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT})
         result = r.json()
         docs = result['response']['docs']
 

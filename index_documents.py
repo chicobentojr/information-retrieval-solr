@@ -31,9 +31,7 @@ def create_stem_field_type(collection, name='stem_es'):
             "class": "solr.TextField",
             "positionIncrementGap": "100",
             "analyzer": {
-                "tokenizer": {
-                    # "class": "solr.WhitespaceTokenizerFactory"},
-                    "class": "solr.StandardTokenizerFactory"},
+                "tokenizer": {"class": "solr.StandardTokenizerFactory"},
                 "filters": [
                     {"class": "solr.LowerCaseFilterFactory"},
                     {"class": "solr.SpanishLightStemFilterFactory"},
@@ -85,15 +83,11 @@ def index_documents(documents_path, collection='informationRetrieval'):
 
     delete_collection(collection)
     create_collection(collection)
-    # create_stem_field_type(collection, 'stem_es')
-    # create_schema_field(collection, 'text', 'text_es')
-    # create_schema_field(collection, 'title', 'text_es')
     create_schema_field(collection, '_text_es_', 'text_es', stored=False)
     create_copy_field(collection, '_text_', '*')
     create_copy_field(collection, '_text_es_', '*')
 
     time.sleep(1)
-    # return 0
 
     for f in files:
         print('Indexing ... {} '.format(f), end='')
