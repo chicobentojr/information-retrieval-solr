@@ -13,7 +13,7 @@ We have chosen [Apache Solr](https://lucene.apache.org/solr/).
 ## Steps to run
 Considering that Solr have already been started.
 
-### 1. Preprocess documents
+### 1. Pre-processing documents
 
 Convert all collection files from SGML to XML before indexing. All files should be located at `files/documents` folder.
 
