@@ -144,3 +144,6 @@ dmypy.json
 files/documents
 
 .vscode/*
+docker-compose.yml
+Pipfile
+Pipfile.lock
