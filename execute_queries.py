@@ -27,7 +27,7 @@ def execute_queries(collection):
         query = get_query(topic)
 
         r = requests.get('{}/solr/{}/select'.format(SOLR_HOST, collection),
-                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT})
+                         params={'q': query, 'fl': '*, score', 'rows': RESULT_LIMIT, 'df': '_text_es_'})
         result = r.json()
         docs = result['response']['docs']
 
