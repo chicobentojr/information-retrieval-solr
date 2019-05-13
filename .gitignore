@@ -147,3 +147,4 @@ files/documents
 docker-compose.yml
 Pipfile
 Pipfile.lock
+trec_eval*
