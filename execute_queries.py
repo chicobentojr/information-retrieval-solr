@@ -14,7 +14,7 @@ def get_query(topic, qopt):
         query = query + " " + topic.desc.cdata
     
     if(qopt == "narr"):
-        query = query + " " + topic.narr.cdata
+        query = query + " " + topic.desc.cdata  + " " + topic.narr.cdata
     
     return query.replace(':', '')
 
