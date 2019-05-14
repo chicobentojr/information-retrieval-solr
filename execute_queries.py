@@ -1,3 +1,4 @@
+import sys
 import untangle
 import requests
 
@@ -6,9 +7,16 @@ SOLR_HOST = 'http://localhost:8983'
 COLLECTION = 'informationRetrieval'
 
 
-def get_query(topic):
-    return (topic.title.cdata + " " + topic.desc.cdata + " " + topic.narr.cdata).replace(':', '')
+def get_query(topic, qopt):
+    query = topic.title.cdata
 
+    if(qopt == "desc"):
+        query = query + " " + topic.desc.cdata
+    
+    if(qopt == "narr"):
+        query = query + " " + topic.narr.cdata
+    
+    return query.replace(':', '')
 
 def show_query_result(number, docs, student='francisco_e_lucas'):
     index = 0
@@ -20,19 +28,19 @@ def show_query_result(number, docs, student='francisco_e_lucas'):
         index += 1
 
 
-def execute_queries(collection):
+def execute_queries(collection, qopt):
     obj = untangle.parse('files/queries.xml')
 
     for topic in obj.root.top:
-        query = get_query(topic)
+        query = get_query(topic, qopt)
 
         r = requests.get('{}/solr/{}/select'.format(SOLR_HOST, collection),
-                         params={
-                                'q': query,
-                                'fl': '*, score',
-                                'rows': RESULT_LIMIT,
-                                'df': '_text_es_'
-                         })
+                        params={
+                            'q': query,
+                            'fl': '*, score',
+                            'rows': RESULT_LIMIT,
+                            'df': '_text_es_'
+                        })
         result = r.json()
         docs = result['response']['docs']
 
@@ -40,4 +48,9 @@ def execute_queries(collection):
 
 
 if __name__ == "__main__":
-    execute_queries(COLLECTION)
+    qopt = "title"
+
+    if(len(sys.argv) == 2):
+        qopt = sys.argv[1]
+
+    execute_queries(COLLECTION, qopt)
